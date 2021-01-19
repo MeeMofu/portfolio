@@ -2,6 +2,7 @@
   --header: #262836;
   --background: #a3bbaa;
   --text: #F9F9F9;
+  --text-light: #b3aeae;
   --border: #6d3d14;
   --highlight: #e8985e;
 }
@@ -26,6 +27,20 @@
 
 h1{
   font-size: 100px;
+}
+
+.tabBtn{
+  color: var(--text-light);
+  font-weight: bolder;
+}
+
+div .tabActive{
+  color: var(--text);
+}
+
+.tabBtn:hover {
+  transition: 0.2s;
+  color: var(--text);
 }
 
 @media (prefers-reduced-motion: no-preference) {
