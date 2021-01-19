@@ -6,7 +6,7 @@ function Nav(props) {
 
     return (
         <nav className="row no-gutters col-12 header">
-            <h1 className="col-12 pb-2 pl-4 pt-3 m-0 text text-center text-sm-left">Vinh Tran</h1>
+            <h1 className="col-12 pb-2 pl-4 pt-3 m-0 text text-center text-sm-left" style={{ fontSize: "3rem", }}>Vinh Tran</h1>
             <div className="col-12 pb-2 btn-group  d-flex justify-content-center justify-content-sm-end" >
                 {tabs.map((tab)=>(
                     <TabBtn thisTab= {tab} currentTab={currentTab} setTab={setTab}

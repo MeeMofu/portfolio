@@ -11,7 +11,7 @@ function TabBtn(props) {
     },[thisTab,currentTab]);
 
     return (
-        <div className={`tabBtn text px-3 pb-2 ${currentTab.name === thisTab.name && 'tabActive'}`}
+        <div className={`tabBtn text px-3 py-2 ${currentTab.name === thisTab.name && 'tabActive'}`}
             onMouseEnter={() => {
                 if (thisTab !== currentTab) setActive(true);
                 // show line when hover and notactive
