@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Animated} from "react-animated-css";
 
 function TabBtn(props) {
-    const {thisTab, currentTab, setTab} = props;
+    const {setVisible, thisTab, currentTab, setTab} = props;
     const [isActive,setActive] = useState(false);
 
     useEffect(()=>{
@@ -21,9 +21,16 @@ function TabBtn(props) {
                 // hide line when leave and not active
             }}
             onClick ={() => {
-                // set active and update current tab
-                setActive(true)
-                setTab(thisTab)
+                if (thisTab !== currentTab) {
+                    setActive(true); // set active and update current tab
+    
+                    setVisible(false); // hide content
+                    setTimeout(()=>{
+                        setTab(thisTab); 
+                    },300)  // delay so that the animation is finished
+
+                }
+                
             }}>
             
                 {thisTab.name}

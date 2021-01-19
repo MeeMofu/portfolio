@@ -38,7 +38,7 @@ function Portfolio() {
   ]);
 
   return (
-      <div className="row px-3 px-lg-5">
+      <div className="row ">
         {projects.map((project, idx) => (
           <Project
             project={project}
