@@ -42,6 +42,11 @@ div .tabActive{
   background-color: var(--header-hover);
 }
 
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .project-bg {
   /* position: relative; */
   width: 100%;

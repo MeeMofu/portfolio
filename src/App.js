@@ -13,7 +13,11 @@ function App() {
   ])
 
   const [tab, setTab] = useState(tabs[0]);
+  // State of the current display tab
+  
   const [viewTab,setVisible] = useState(true);
+  // State to toggle the visibility of the content of the page
+  // Animated CSS package will animate as this state toggle
 
   useEffect(()=>{
     document.title = tab.name;
