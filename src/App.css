@@ -48,6 +48,7 @@ div .tabActive{
   height: 100%;
 }
 
+
 .image-wrapper:hover {
   opacity: 0;
 }
@@ -86,6 +87,25 @@ div .tabActive{
 
 .project-text a:hover {
   color: var(--darker);
+}
+
+footer {
+  font-size: 48px;
+  justify-content: center;
+  background-color: var(--header);
+}
+
+footer a {
+  color: var(--text-hover);
+  margin: 10px 20px;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: var(--text);
 }
 
 @media (prefers-reduced-motion: no-preference) {
