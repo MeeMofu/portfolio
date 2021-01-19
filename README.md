@@ -1,7 +1,7 @@
 # Portfolio WIP
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[!Preview](./src/assets/screenshot.png)
+![Preview](./src/assets/screenshot.png)
 Live application link: https://meemofu.github.io/portfolio/ 
 
 ## Description
