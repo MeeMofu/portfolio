@@ -6,35 +6,35 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
+      name: 'trip-planner',
       description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://still-taiga-93727.herokuapp.com/",
+      repo: "https://github.com/MeeMofu/travel-planner"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'just-chattin',
+      description: 'Express/Socket.io',
+      link: "https://just-chattin.herokuapp.com/",
+      repo: "https://github.com/jcgom3/Just-Chattin"
     },
     {
-      name: 'run-buddy',
+      name: 'weather-dashboard',
       description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://meemofu.github.io/weather-forecast/",
+      repo: "https://github.com/MeeMofu/weather-forecast"
     },
     {
-      name: 'led-wall',
+      name: 'CMS-blog',
       description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://radiant-citadel-50156.herokuapp.com/",
+      repo: "https://github.com/MeeMofu/CMS-blog"
     },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
+    // {
+    //   name: 'calculator',
+    //   description: 'React/JavaScript/CSS',
+    //   link: "https://github.com",
+    //   repo: "https://github.com"
+    // },
   ]);
 
   return (

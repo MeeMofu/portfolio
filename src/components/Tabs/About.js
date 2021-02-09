@@ -3,16 +3,19 @@ import React from 'react';
 function About() {
   return (
     <section className="my-5 px-2">
-      <div className="my-2">
-        <div className="profile-img my-5 text-center text-md-left">
+      <div className="m-2 px-3 d-flex justified-contend-between">
+        <div className="profile-img my-1 text-center text-md-left">
             <i className="fas fa-user-circle" style={{ fontSize: "96px", }}></i>
         </div>
-            <p>
-            Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
+        <div className="pl-5">
+           <p>
+              I'm Vinh Tran, a full stack web developer who loves slick and intuitive webdesigns. I enjoy challenges from both frontend and backend aspect, from designing a user friendly wireframe, to writing efficient algorithms that handles edge cases.
             </p>
             <p>
-            Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
+              Specialized in minimalistic, user-friendly web interfaces that provides responsive functionality. User experience is number 1 priority whether I design my application
             </p>
+        </div>
+           
       </div>
     </section>
   );
